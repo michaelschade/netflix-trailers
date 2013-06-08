@@ -1,0 +1,46 @@
+Netflix is a great way to find movies, but it's always been a pain to know
+which show you'll like. Instead of opening a new tab and scouring the Internet
+for a trailer, or wasting time watching a show you might not like, this
+extension makes trailers just a click away. You'll see a link in the movie
+information popover and when viewing a specific movie's page.
+
+![](https://github.com/michaelschade/netflix-trailers/raw/master/examples/popover.png)
+![](https://github.com/michaelschade/netflix-trailers/raw/master/examples/detail.png)
+
+Installation
+============
+
+The easiest way to install this is by grabbing the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/hacker-news-highlighter/lodgohiooagialakkkgncicmjenljenh).
+
+Otherwise, you can grab the [user script](https://raw.github.com/michaelschade/netflix-trailers/master/trailers.user.js)
+for extensions like Greasemonkey.
+
+Requirement: User Scripts/Greasemonkey
+--------------------------------------
+
+Google Chrome will support this by default. For other browsers, you will need
+a user script extension:
+
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+* [Safari](http://www.simplehelp.net/2007/11/14/how-to-run-greasemonkey-scripts-in-safari/)
+* [Internet Explorer](http://www.bhelpuri.net/Trixie/)
+
+Note that I've only tried this on Google Chrome. Your mileage may vary. If you
+find issues, please [file an issue](https://github.com/michaelschade/netflix-trailers/issues/new).
+
+Supported Browsers
+------------------
+
+There is user script support (either built in or through an extension) for
+these browsers:
+
+* Internet Explorer 8+
+* Firefox 3.5+
+* Safari 4+
+* Opera 10.5+
+
+License
+=======
+
+By [Michael Schade](http://mschade.me/) ([@sch](https://twitter.com/sch)). I
+like the [MIT license](https://github.com/michaelschade/netflix-trailers/blob/master/LICENSE).

@@ -1,0 +1,23 @@
+{
+  "name": "Trailers for Netflix",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "description": "Link to movie and TV show trailers on Netflix.",
+  "icons": {
+    "16":  "icons/icon16.png",
+    "48":  "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "background": {
+    "page": "background.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://movies.netflix.com/WiHome*", "*://movies.netflix.com/WiMovie/*"],
+      "js": ["src/trailers.user.js"]
+    }
+  ]
+}
