@@ -4,15 +4,15 @@ for a trailer, or wasting time watching a show you might not like, this
 extension makes trailers just a click away. You'll see a link in the movie
 information popover and when viewing a specific movie's page.
 
-![](https://github.com/michaelschade/netflix-trailers/raw/master/examples/popover.png)
-![](https://github.com/michaelschade/netflix-trailers/raw/master/examples/detail.png)
+![](https://raw.github.com/michaelschade/netflix-trailers/master/examples/popover.png)
+![](https://raw.github.com/michaelschade/netflix-trailers/master/examples/detail.png)
 
 Installation
 ============
 
 The easiest way to install this is by grabbing the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/hacker-news-highlighter/lodgohiooagialakkkgncicmjenljenh).
 
-Otherwise, you can grab the [user script](https://raw.github.com/michaelschade/netflix-trailers/master/trailers.user.js)
+Otherwise, you can grab the [user script](https://raw.github.com/michaelschade/netflix-trailers/master/src/trailers.user.js)
 for extensions like Greasemonkey.
 
 Requirement: User Scripts/Greasemonkey
