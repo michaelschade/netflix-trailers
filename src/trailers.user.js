@@ -12,7 +12,7 @@ function main() {
   function trailerLink(movieName, id) {
     return $('<a>', {
       href: trailerURL(movieName),
-      text: 'Trailer',
+      text: 'Trailers',
       target: '_blank',
       id: id
     }).click(function() {
