@@ -16,7 +16,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://movies.netflix.com/WiHome*", "*://movies.netflix.com/WiMovie/*"],
+      "matches": ["*://www.netflix.com/WiHome*", "*://www.netflix.com/WiMovie/*"],
       "js": ["src/trailers.user.js"]
     }
   ]
