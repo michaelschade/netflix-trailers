@@ -1,6 +1,6 @@
 {
   "name": "Trailers for Netflix",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
 
   "description": "Link to movie and TV show trailers on Netflix.",
